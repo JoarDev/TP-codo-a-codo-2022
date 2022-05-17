@@ -106,6 +106,9 @@ const get_zodiac_sign = (day, month) => {
         signo = "Capricorn"
         break
         
+        default:
+            signo = ""
+            break;
     }
     return signo
 }
